@@ -1,0 +1,27 @@
+#country {
+  font-weight: bold;
+  color: red;
+}
+#vohoainam {
+  font: 1, 3rem "Fira Sans", sans-serif;
+  color: fuchsia;
+}
+label {
+  display: block;
+  font: 1rem "Fira Sans", sans-serif;
+}
+
+input,
+label {
+  margin: 0, 4rem 0;
+}
+a[href^="mailto"]::before {
+  content: "📧 ";
+}
+time {
+  font-weight: bold;
+}
+.fit-picture {
+  width: 500pt;
+  height: auto;
+}
